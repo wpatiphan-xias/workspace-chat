@@ -512,7 +512,7 @@ export function ChatWorkspace() {
                 </Avatar>
               </MessageAvatar>
               <MessageContent>
-                <BubbleGroup>
+                <BubbleGroup className="w-full">
                   <Bubble
                     variant={
                       message.direction === "incoming" ? "muted" : "default"
