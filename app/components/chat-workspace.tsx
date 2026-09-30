@@ -439,9 +439,9 @@ export function ChatWorkspace() {
                     LINE
                   </Badge>
                 </p>
-                <p className="truncate text-xs text-muted-foreground">
+                {/*<p className="truncate text-xs text-muted-foreground">
                   {selectedContact.lineUserId}
-                </p>
+                </p>*/}
               </div>
             </div>
           ) : (
@@ -569,7 +569,7 @@ export function ChatWorkspace() {
               <p className="text-sm text-slate-400">
                 LINE Official Account Contact
               </p>
-              <Button
+              {/*<Button
                 variant="outline"
                 className="cursor-pointer"
                 onClick={() => {
@@ -585,16 +585,16 @@ export function ChatWorkspace() {
                 }}
               >
                 Copy LINE ID
-              </Button>
+              </Button>*/}
             </div>
             <Separator />
-            <div className="space-y-2">
+            {/*<div className="space-y-2">
               <p className="text-sm font-bold">LINE Profile</p>
               <p className="text-xs text-slate-400">ID</p>
               <p className="break-all text-sm text-slate-500">
                 {selectedContact.lineUserId}
               </p>
-            </div>
+            </div>*/}
           </>
         )}
       </aside>
